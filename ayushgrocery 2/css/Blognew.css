@@ -1,0 +1,405 @@
+/*#ffe6b5
+#ffbfc0
+#044d4f
+#d1f90c
+#color: rgb(66, 92, 131);
+
+
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: sans-serif;
+    background-color: #eef9f9;
+  }
+  .container {
+    margin: auto;
+    overflow: hidden;
+    position: fixed; /* Fixed position */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  z-index: 1000;
+  background-color: #e2e2f5;
+  }
+  .box {
+    padding: 20px;
+    background-color: white;
+  }
+  .above-header {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 600px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #3f6e9f;
+    width: 100%;
+  }
+  .loc-time {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .header-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+  }
+  .header-two {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .text {
+    border-right: 1px solid #000;
+    padding-right: 5px;
+  }
+  .header-logo {
+    height: 30px;
+    width: 30px;
+  }
+  .logo h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #010101;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo-img {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .search-bar {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    border-radius: 28px;
+    border: 0.2px solid #9cada9;
+    transition: background 0.25s;
+    width: 300px;
+  }
+  
+  .search-input {
+    font-size: 16px;
+    color: #333333;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 800px;
+  }
+  
+  .search-input::placeholder,
+  .search-icon {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .search-icon {
+    width: 25px;
+  }
+  .login-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #044d4f;
+    border-radius: 50%;
+  }
+  .login {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  .sub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 220px;
+    padding-top: 20px;
+  }
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: #555250;
+    transition: 0.3s;
+  }
+  .nav a:hover {
+    border-bottom: 3px solid #044d4f;
+    padding-bottom: 5px;
+    transition: 0.7s;
+    font-weight: medium;
+    letter-spacing: 2px;
+    transform: scale(1.1);
+    
+  }
+  
+  /* END FOR HEADER */
+  /* Start For BODY */
+
+  .content{
+    background-color: #000000;
+    border-radius: 40px;
+    box-shadow: 0px 5px 14px ;
+  }
+
+  .content .border{
+    
+    background-color: #1a104d;
+    border-radius: 0px 0px 40px 50px;
+    box-sizing: 0px 0px 15px #fefefe ;
+    padding-right: 55px;
+    margin-bottom: -50px;
+  }
+
+  .border{
+    display: flex;
+    flex: 50%;
+    flex: 50%;
+    justify-content: space-around;
+    
+  }
+
+.content .right{
+    margin: 20px 0px;
+
+}
+
+.content .right .image img{
+    width: 80%;
+    border-radius: 50px;
+    margin-bottom: 10%;
+    margin-left: 25%;
+    margin-top: 300px;
+  }
+
+  
+
+.border .left .heading h2{
+    color:  rgb(120, 120, 255);
+    background-color: #050c0c;
+    margin: 100px;
+    margin-right: -100px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align:center;
+    border-radius: 5px 50px 50px 5px;
+    font-size: 35px;
+    box-shadow: 13px 9px 13px #eef9f9;
+    margin-top: 300px;
+}
+
+.border .left .heading p{
+    color: #eef9f9;
+    margin: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    word-break: 1px;
+    word-spacing: 1px;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: -200px;
+}
+
+.heading{
+    margin-left: 100px;
+    
+}
+
+.heading a{
+    background-color:#eef9f9cb ;
+    border-radius: 15px 2px 15px 2px;
+    margin-top: 20px;
+    padding: 2px;
+    color: rgb(66, 92, 131);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.heading a:hover{
+   background-color:  rgb(14, 14, 78);
+    border-radius: 2px 15px 2px 15px;
+    margin-top: 20px;
+    padding: 2px;
+    color: #eef9f9;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: 2px 3px 14px inset;
+    transition: 0.5s;
+}
+
+/* Code For 1st Section Ends Here */
+/* Code For 2nd Section Starts Here */
+
+.left .image img{
+  width: 50%;
+  border-radius: 50px;
+  /* box-shadow: 7px 4px 20px #000000 ; */
+  margin-left: 100px;
+  
+  margin-top: 15%;
+  margin-bottom: 25%;
+  transition: 0.7s;
+  
+}
+
+
+
+.right .text h2{
+  color:  rgb(120, 120, 255);
+    background-color: #050c0c;
+    margin-left: -350px;
+    margin-right: 100px;
+    margin-top: 200px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align:center;
+    border-radius: 5px 50px 50px 5px;
+    font-size: 35px;
+    box-shadow: 13px 9px 13px #eef9f9;
+}
+
+.right .text{ /* Removes the Vertical Line in right side of text  */
+  border-right: none;
+}
+
+.right .text p{
+  color: #eef9f9;
+    margin: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    word-break: 1px;
+    word-spacing: 1px;
+    font-size: 30px;
+    margin-left: -350px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.right .text a{
+  background-color:#eef9f9cb ;
+    border-radius: 15px 2px 15px 2px;
+    margin-top: 15px;
+    padding: 2px;
+    color: rgb(66, 92, 131);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.right .text a:hover{
+  background-color:  rgb(14, 14, 78);
+    border-radius: 2px 15px 2px 15px;
+    margin-top: 15px;
+    padding: 2px;
+    color: #eef9f9;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: 2px 3px 14px inset;
+    transition: 0.5s;
+}
+
+.backToTop a{
+  background-color: black;
+}
+
+.content .border .left .adjustImage img{
+  width: 120%;
+  border-radius: 50px;
+  /* box-shadow: 7px 4px 20px #000000 ; */
+  margin-left: 100px;
+  
+  margin-top: 50%;
+  margin-bottom: 25%;
+  transition: 0.7s;
+  
+}
+
+.right .adjustText h2{
+  color:  rgb(120, 120, 255);
+    background-color: #050c0c;
+    margin-left: 350px;
+    margin-right: 100px;
+    margin-top: 200px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align:center;
+    border-radius: 5px 50px 50px 5px;
+    font-size: 35px;
+    box-shadow: 13px 9px 13px #eef9f9;
+}
+
+.right .adjustText p{
+  color: #eef9f9;
+    margin: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    word-break: 1px;
+    word-spacing: 1px;
+    font-size: 30px;
+    margin-left: 350px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.right .adjustText a{
+  background-color:#eef9f9cb ;
+    border-radius: 15px 2px 15px 2px;
+    margin-top: 15px;
+    padding: 2px;
+    color: rgb(66, 92, 131);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.right .adjustText a:hover{
+  background-color:  rgb(14, 14, 78);
+    border-radius: 2px 15px 2px 15px;
+    margin-top: 15px;
+    padding: 2px;
+    color: #eef9f9;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: 2px 3px 14px inset;
+    transition: 0.5s;
+}
+
+.adjustText .backtotop a{
+  background-color:#63e6e6cb ;
+  border-radius: 15px 2px 15px 2px;
+  padding: 10%;
+  margin-left: 350px;
+  padding: 2px;
+  color: rgb(38, 47, 61);
+  text-decoration: none;
+  font-size: 30px;
+}

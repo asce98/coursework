@@ -1,0 +1,168 @@
+/*#ffe6b5
+#ffbfc0
+#044d4f
+#d1f90c
+
+
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: sans-serif;
+    background-color: #eef9f9;
+  }
+  .container {
+    margin: auto;
+    overflow: hidden;
+    position: fixed; /* Fixed position */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  z-index: 1000;
+  background-color: #e2e2f5;
+  }
+  .box {
+    padding: 20px;
+    background-color: white;
+  }
+  .above-header {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 600px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #3f6e9f;
+    width: 100%;
+  }
+  .loc-time {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .header-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+  }
+  .header-two {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .text {
+    border-right: 1px solid #000;
+    padding-right: 5px;
+  }
+  .header-logo {
+    height: 30px;
+    width: 30px;
+  }
+  .logo h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #010101;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo-img {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .search-bar {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    border-radius: 28px;
+    border: 0.2px solid #9cada9;
+    transition: 0.25s;
+    width: 300px;
+  }
+  
+  .search-input {
+    font-size: 16px;
+    color: #333333;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 800px;
+  }
+  
+  .search-input::placeholder,
+  .search-icon {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .search-icon {
+    width: 25px;
+  }
+  .login-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #044d4f;
+    border-radius: 50%;
+  }
+  .login {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  .sub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 220px;
+    padding-top: 20px;
+  }
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #555250;
+    transition: 0.3s;
+  }
+  .nav a:hover {
+    border-bottom: 3px solid #044d4f;
+    padding-bottom: 5px;
+    transition: 0.7s;
+    font-weight: medium;
+    letter-spacing: 2px;
+    transform: scale(1.1);
+    
+  }
+  
+  /* END FOR HEADER */
+  /* Start For BODY */
+
+body{
+  background-color: #1a0e52;
+
+}
+
